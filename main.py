@@ -151,7 +151,7 @@ def save_to_excel(data, filename='cve_data.xlsx'):
 
 
 while True:
-    numResults = input("How many results would you like to see? ")
+    numResults = input("How many results would you like to see? (Between 1 and 259059) ")
     try:
         numResults = int(numResults)
         break
